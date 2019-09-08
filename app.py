@@ -3,7 +3,6 @@ import feedparser
 import requests
 from flask import make_response
 from datetime import datetime, timedelta
-from flask_wtf.csrf import CSRFProtect
 import config
 
 app = Flask(__name__)
