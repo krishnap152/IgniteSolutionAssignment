@@ -8,7 +8,6 @@ import config
 
 app = Flask(__name__)
 app.secret_key = config.SECRET_KEY   
-print(app.secret_key)
 
 def get_news(url):
     feed = feedparser.parse(url)
