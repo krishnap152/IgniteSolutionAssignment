@@ -22,7 +22,7 @@ def get_news(url):
         pass
     print(first_article.get("links"))
     print(first_article.get("link"))
-    print(first_article.media_content[0]['url'])
+    #print(first_article.media_content[0]['url'])
     #print(first_article.get("published"))
     
     
